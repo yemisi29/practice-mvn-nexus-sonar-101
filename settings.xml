@@ -60,7 +60,7 @@ under the License.
        <repository>
          <id>nexus-snapshot-repo</id>
          <name>your custom repo</name>
-         <url>http://18.188.174.123/repository/maven-snapshots/</url>
+         <url>http://107.20.11.231/repository/maven-snapshots/</url>
        </repository>
 	   
      </repositories>
@@ -71,7 +71,7 @@ under the License.
        <repository>
          <id>nexus-release-repo</id>
          <name>your custom repo</name>
-         <url>http://3.95.192.141:8081/repository/maven-release/</url>
+         <url>http://107.20.11.231:8081/repository/maven-release/</url>
        </repository>
      </repositories>
    </profile>
@@ -83,7 +83,7 @@ under the License.
         <activeByDefault>true</activeByDefault>
       </activation>
       <properties>
-        <sonar.host.url>http://13.59.38.240</sonar.host.url>
+        <sonar.host.url>http://50.19.133.117</sonar.host.url>
       </properties>
     </profile>
     <!--End SonarQube/Sonar Profile-->
